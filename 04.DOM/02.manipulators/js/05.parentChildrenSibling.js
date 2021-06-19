@@ -11,12 +11,12 @@ firstLi.parentElement.parentElement.parentElement.parentElement;
 // null
 
 // getting the childer elements
-const ul = document.querySelector('ul');
+const secondUl = document.querySelector('ul');
 // array like object and contains the children of the ul
-ul.children;
-ul.children[0];
+secondUl.children;
+secondUl.children[0];
 // <li class="special">First Thing</li>
-ul.children[0].innerText;
+secondUl.children[0].innerText;
 // First Thing
 
 // getting sibling
