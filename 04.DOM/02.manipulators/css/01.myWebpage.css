@@ -22,3 +22,13 @@ input[type='password']{
    height: 5rem;
    width: 10rem;
 }
+a{
+   text-decoration: none;
+   font-size: x-large;
+   background: #333;
+   color: #fff;
+   padding: 1rem 0.4rem;
+}
+a:hover{
+   color: salmon;
+}
