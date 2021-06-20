@@ -31,4 +31,19 @@ a{
 }
 a:hover{
    color: salmon;
+}#todos{
+   font-size: 3rem;
+   list-style: none;
+   font-weight: bolder;
+  
+}
+.todo{
+   padding: 0.75rem;
+   color: olive;
+}
+
+.done{
+   color: gray;
+   text-decoration: line-through;
+   opacity: 50%;
 }
