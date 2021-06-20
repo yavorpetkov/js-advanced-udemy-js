@@ -71,6 +71,7 @@ const warriorsGames = [
 			isWinner: false
 		}
 	},
+
 	{
 		awayTeam: {
 			team: 'Golden State',
