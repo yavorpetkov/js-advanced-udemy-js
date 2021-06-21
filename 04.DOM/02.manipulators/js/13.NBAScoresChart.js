@@ -85,3 +85,26 @@ const warriorsGames = [
 		}
 	}
 ];
+const ulParent = document.createElement('ul');
+for (const game of warriorsGames) {
+	const { homeTeam, awayTeam } = game;
+	const gameLi = document.createElement('li');
+	// destructuring awayTeam and homeTeam
+	const { team: hTeam, points: hPoins } = homeTeam;
+	const { team: aTeam, points: aPoints } = awayTeam;
+
+	const teams = `${aTeam} @ ${hTeam}`;
+	// bolding the winning score
+	let scoreLine;
+	if (aPoints > hPoins) {
+		scoreLine = `<b>${aPoints}</b>-${hPoins}`;
+	} else {
+		scoreLine = `${aPoints}-<b>${hPoins}</b>`;
+	}
+	const warriors = hTeam === 'Golden State' ? homeTeam : awayTeam;
+	gameLi.classList.add(warriors.isWinner ? 'win' : 'loss');
+
+	gameLi.innerHTML = `${teams} ${scoreLine}`;
+	ulParent.append(gameLi);
+}
+document.body.prepend(ulParent);
