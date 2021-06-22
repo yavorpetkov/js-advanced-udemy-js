@@ -1,0 +1,15 @@
+button{
+   position: absolute;
+   top: 10px;
+   left: 10px;
+   background: #333;
+   color: #fff;
+   cursor: pointer;
+   font-size: 1rem;
+   padding: 0.5rem;
+   font-weight: bold;
+}
+button:hover{
+   color: coral;
+   background: rgb(65, 61, 61);
+}
