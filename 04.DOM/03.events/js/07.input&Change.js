@@ -11,7 +11,7 @@ for (let input of [ credditCard, termsCheck, veggieSelect ]) {
 		console.log(formData);
 	});
 }
-// hard-coded in
+
 // credditCard.addEventListener('input', (e) => {
 // 	console.log('CC', e);
 // 	formData['cc'] = e.target.value;
