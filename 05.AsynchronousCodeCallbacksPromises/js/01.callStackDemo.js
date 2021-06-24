@@ -24,3 +24,4 @@ const makeRant = (phrase, el) => {
 console.log('HELLO!');
 
 makeRant('I love mayonnaise', document.body);
+makeRant('something scary', document.body);
