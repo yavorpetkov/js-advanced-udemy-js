@@ -8,4 +8,5 @@ setTimeout(function() {
 	//JS relies on the browser to keep track of the timer
 	console.log('I HAPPEN THIRD!');
 }, 1000);
+
 console.log('I HAPPEN SECOND!');
