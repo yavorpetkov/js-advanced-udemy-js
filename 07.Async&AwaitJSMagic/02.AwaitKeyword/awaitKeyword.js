@@ -11,7 +11,7 @@ getPlanets();
 // Without async / await
 
 // function getPlanets() {
-// 	return axios.get('https://swapi.co/api/planets/');
+// 	return axios.get('https://swapi.dev/api/planets/');
 // }
 
 // getPlanets().then((res) => {
